@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "wayfer_android_software"
