@@ -11,27 +11,28 @@
         android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="20mm"
-        android:switchMinWidth="12dp"
-        android:text="wayfer과 연결"
-        android:textSize="20dp" />
+        android:text="  wayfer과 연결"
+        android:textSize="20dp"/>
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/switch2"
         android:layout_width="match_parent"
         android:layout_height="20mm"
-        android:text="TTS/음성모드" />
+        android:text="  TTS/음성모드"
+        android:textSize="20dp"/>
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/switch3"
         android:layout_width="match_parent"
         android:layout_height="20mm"
-        android:text="알림모드" />
+        android:text="  알림모드"
+        android:textSize="20dp"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="20mm"
-        android:text="도움말" />
-
+        android:text="도움말"
+        android:textSize="20dp" />
 
 </LinearLayout>
