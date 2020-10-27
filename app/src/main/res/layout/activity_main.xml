@@ -7,31 +7,49 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/TvBluetoothStatus"
+        android:layout_width="match_parent"
+        android:layout_height="8mm"
+        android:layout_marginTop="10dp"
+        android:text="블루투스 연결상태: 비활성화"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="@+id/btnBluetoothOn"
+        app:layout_constraintTop_toBottomOf="@+id/btnBluetoothOn" />
+
     <Switch
         android:id="@+id/switch1"
         android:layout_width="match_parent"
-        android:layout_height="20mm"
-        android:text="  wayfer과 연결"
+        android:layout_height="15mm"
+        android:text="  블루투스 연결"
         android:textSize="20dp"/>
 
     <Switch
         android:id="@+id/switch2"
         android:layout_width="match_parent"
-        android:layout_height="20mm"
-        android:text="  TTS/음성모드"
+        android:layout_height="15mm"
+        android:text="  wayfer와 연결"
         android:textSize="20dp"/>
 
     <Switch
         android:id="@+id/switch3"
         android:layout_width="match_parent"
-        android:layout_height="20mm"
+        android:layout_height="15mm"
+        android:text="  TTS/음성모드"
+        android:textSize="20dp"/>
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="match_parent"
+        android:layout_height="15mm"
         android:text="  알림모드"
         android:textSize="20dp"/>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="20mm"
+        android:layout_height="18mm"
         android:text="도움말"
         android:textSize="20dp" />
 
